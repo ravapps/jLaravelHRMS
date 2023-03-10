@@ -1,0 +1,34 @@
+cd c:\wamp64\www\hrms
+
+php artisan config:cache
+
+composer require maatwebsite/excel:^3.0.1
+
+php artisan config:cache
+
+php artisan cache:clear
+
+!vendor,!public,!vendor2021_01_06,!storage
+
+
+
+Authetication is laravel foundation based not coded by the coder individually - this is right approach
+
+
+NO NEED TO SPEAK UP
+Dicripancy in codes while i review
+
+1. Not implemented - Transactional save in db -   post at employee create  -  means rollback the n numbers of insert if error comes  in one of them. 
+
+
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
+
+
+git clone https://Ashish_designer_jaig@bitbucket.org/Ashish_designer_jaig/facility-management-hrms.git hrms
+git pull https://Ashish_designer_jaig@bitbucket.org/Ashish_designer_jaig/facility-management-hrms.git hrms
+
+https://workflowtesting.com/fms/hrms/site_management
+
